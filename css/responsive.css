@@ -1,0 +1,310 @@
+@media(min-width:1200px){
+	.prod_description_tabs ul.nav-tabs li a{font-size: 16px;}
+	.product_list .inner_product_items .product_item .product_content .product_price span{font-size:13px;line-height:16px;}
+	header.header .header_nav .cus_navbar ul li.dropdown:last-child:hover ul.dropdown-menu{left: 0px;}
+}
+@media(min-width:992px) and (max-width:1199px){
+	header.header .header_left .logo{max-width: 210px;}
+	header.header .header_left .logo img{width: 100%;}
+	.prod_description_tabs ul.nav-tabs li a{font-size: 15px;}
+	header.header .header_nav .cus_navbar ul li.dropdown:last-child:hover ul.dropdown-menu{right: 0px;left: auto;transform: translate(0px, 0px);}
+}
+@media(min-width:992px){
+	.feature_product_sec .feture_prod_list ul li{width:calc(16.66% - 22px);margin:0px 20px 40px 0px;}
+	header.header .header_left .room_menu li{margin-right:15px;}
+	header.header .header_left .room_menu li a, header.header .header_nav .cus_navbar ul.navbar-nav>li.dropdown>a{font-size: 13px;line-height: 18px;}
+	header.header .header_nav .cus_navbar{margin: 5px 0px 0px 70px;}
+	footer.footer .inner_footer{padding: 120px 0px 20px;}
+	.inner_banner_section .banner_content select.selection_type{font-size: 24px;line-height: 30px;}
+	.inner_banner_section .banner_content i{font-size: 42px;line-height: 36px;margin-left: 15px;}
+	.inner_banner_section .banner_content{padding: 18px 50px;max-width: 455px;margin: 0px auto;}	
+	.custom_readymade .readymade_list ul li{width:calc(20% - 16px);margin-right:20px;padding:15px 13px;}
+	.custom_readymade .readymade_list ul li:nth-child(5n){margin-right:0px;}
+	.custom_readymade .readymade_list ul li:nth-child(5n+1){clear:both;}
+	.pop_collect_list .inner_collect{min-height: 500px;}	
+	.inner_custommade_sec .custom_made_btn a{font-size: 15px;line-height: 21px;padding:12px 30px;margin-right:20px;}
+	.prod_details_pg .prod_sidebar .prod_title{margin: 0px 0px 20px;}
+	.prod_single_details .prod_sidebar_sec .prod_title{margin: 0px 0px 10px;}
+	.prod_details_pg .prod_sidebar .prod_title h4, .prod_single_details .prod_sidebar_sec .prod_title h4{font-size: 18px;line-height: 24px;}
+	.prod_details_pg .prod_sidebar .prod_price span{font-size: 30px;line-height: 34px;}
+	.prod_details_pg .prod_sidebar .prod_available{margin: 15px 0px;}
+	.prod_details_pg .prod_sidebar .prod_available span{font-size: 16px;line-height: 21px;}
+	.prod_details_pg .prod_sidebar .prod_cus_select select.custom_select_opt, .prod_details_pg .prod_sidebar .cus_prod_btn a, .prod_details_pg .prod_sidebar .cus_prod_btn button, .prod_single_details .prod_sidebar_sec .cus_prod_btn button{font-size: 16px;line-height: 21px;}
+	.prod_details_pg .prod_sidebar .prod_cus_select select.custom_select_opt{padding: 12px 28px 12px 15px;}
+	.prod_details_pg .prod_sidebar .cus_prod_btn a, .prod_details_pg .prod_sidebar .cus_prod_btn button, .prod_single_details .prod_sidebar_sec .cus_prod_btn button{padding: 12px 20px;}
+	.prod_description_tabs ul.nav-tabs li a{line-height: 21px;padding:12px 8px;}
+	.product_list .inner_product_items.product_item_col3 .product_item{width:calc(33% - 10px);margin-right:15px;}
+	.product_list .inner_product_items.product_item_col3 .product_item:nth-child(3n){margin-right:0px;}
+	.product_list .inner_product_items.product_item_col3 .product_item:nth-child(3n+1){clear:both;}
+	.product_list .inner_product_items.product_item_col4 .product_item{width:calc(25% - 12px);margin-right:15px;}
+	.product_list .inner_product_items.product_item_col4 .product_item:nth-child(4n){margin-right:0px;}
+	.product_list .inner_product_items.product_item_col4 .product_item:nth-child(4n+1){clear:both;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col{width: 160px;min-width: 160px;padding: 0px 15px 0px 0px;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col>ul.sub-menu>li>a{font-size: 13px;line-height: 18px;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col>ul.sub-menu>li:first-child>a{font-size:14px;line-height:18px;} 
+	header.header .header_nav .cus_navbar ul li.dropdown:last-child ul.dropdown-menu li.dropdown_col>ul.sub-menu>li:first-child>a{font-size:13px;line-height:18px;}
+	header.header .header_nav .cus_navbar ul li.dropdown:hover ul.dropdown-menu{left:-70%;}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(2):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-10%, 0px);}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(3):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-30%, 0px);}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(4):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-40%, 0px);} 
+	header.header .header_nav .cus_navbar ul li.dropdown a span.fa{font-size: 21px;line-height: 18px;}
+	header.header .header_nav .cus_navbar ul li{margin-right: 15px;}
+	.cus_choose_option .field_choice label.choice_label span.span_title{font-size: 14px;line-height: 18px;}
+	.cus_choose_option .field_choice label.choice_label span.span_price{font-size: 21px;line-height: 24px;}
+	.sofabed_option .field_choice label.choice_label, .size_option .field_choice label.choice_label{padding:15px;min-height: 212px;}
+	.sofabed_option .field_choice{width:calc(20% - -1px);margin:0px 15px 20px 0px;float:left;}
+	.size_option .field_choice{width:calc(18% - 18px);margin:0px 15px 20px 0px;float:left;}
+	.fabric_option .field_choice{width:calc(12.79% - 12px);margin:0px 10px 20px 0px;float:left;}
+}  
+@media(min-width:768px) and (max-width:991px){
+	.feature_product_sec .feture_prod_list ul li{width:calc(25% - 18px);margin:0px 15px 40px 0px;}
+	header.header .header_left .logo{max-width: 180px;}
+	header.header .header_left .logo img{width: 100%;}
+	header.header .header_left .room_menu li{margin-right:8px;}
+	header.header .header_left .room_menu li a, header.header .header_nav .cus_navbar ul li a{font-size: 12px;line-height: 16px;}
+	header.header .header_nav .cus_navbar{margin: 5px 0px 0px 0px;}
+	.follow_instagram .insta_col:nth-child(1), .follow_instagram .insta_col:nth-child(2){margin-bottom:30px;}
+	footer.footer .inner_footer .footer_col:nth-child(1), footer.footer .inner_footer .footer_col:nth-child(2), .serv_col:nth-child(1), .serv_col:nth-child(2){margin-bottom:20px;}
+	.follow_instagram .insta_col:nth-child(3), footer.footer .inner_footer .footer_col:nth-child(3){clear:both;}
+	.feat_produt_review:before{background-size: 100% 90%;top: 2%;}
+	footer.footer .inner_footer{padding: 80px 0px 20px;}
+	.inner_banner_section .banner_content select.selection_type{font-size: 21px;line-height: 26px;}
+	.inner_banner_section .banner_content h2 i{font-size: 34px;line-height: 28px;margin-left: 10px;} 
+	.inner_banner_section .banner_content{padding: 18px 40px;max-width: 390px;margin: 0px auto;text-align: center;}	
+	.custom_readymade .readymade_list ul li{width:calc(25% - 13px);margin-right:15px;padding:15px 13px;}
+	.custom_readymade .readymade_list ul li:nth-child(4n){margin-right:0px;}
+	.custom_readymade .readymade_list ul li:nth-child(4n+1){clear:both;}	
+	.pop_collect_list .inner_collect{min-height: 460px;}
+	.inner_custommade_sec .custom_made_btn a{font-size: 14px;line-height: 18px;padding:10px 20px;margin-right:15px;}
+	.prod_description_tabs ul.nav-tabs li a{font-size:12px;line-height: 16px;padding:12px 5px;}
+	.product_list .inner_product_items .product_item{width:calc(50% - 10px);margin-right:15px;}
+	.product_list .inner_product_items .product_item:nth-child(2n){margin-right:0px;}
+	.product_list .inner_product_items .product_item:nth-child(2n+1){clear:both;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col{width: 140px;min-width: 140px;padding: 0px 10px 0px 0px;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col>ul.sub-menu>li>a{font-size: 12px;line-height: 16px;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col>ul.sub-menu>li:first-child>a{font-size:13px;line-height:16px;} 
+	header.header .header_nav .cus_navbar ul li.dropdown:last-child ul.dropdown-menu li.dropdown_col>ul.sub-menu>li:first-child>a{font-size:12px;line-height:16px;} 
+	header.header .header_nav .cus_navbar ul li.dropdown:hover ul.dropdown-menu{left:-115%;}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(2):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-7%, 0px);}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(3):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-30%, 0px);}
+	header.header .header_nav .cus_navbar ul li.dropdown:nth-child(4):hover ul.dropdown-menu{left: calc(0% - 120px);transform: translate(-42%, 0px);} 
+	header.header .header_nav .cus_navbar ul li.dropdown:last-child:hover ul.dropdown-menu{right: 0px;left: auto;transform: translate(0px, 0px);}
+	header.header .header_nav .cus_navbar ul li{margin-right: 8px;} 
+	header.header .header_nav .cus_navbar ul li.dropdown a span.fa{font-size: 18px;line-height: 16px;}
+	.sofabed_option .field_choice label.choice_label, .size_option .field_choice label.choice_label{padding:10px;min-height: 210px;}
+	.sofabed_option .field_choice{width:calc(34.4% - 14px);margin:0px 10px 20px 0px;float:left;}
+	.size_option .field_choice{width:calc(19% - 18px);margin:0px 15px 20px 0px;float:left;}
+	.fabric_option .field_choice{width:calc(20% - 12px);margin:0px 10px 20px 0px;float:left;}
+} 
+@media(max-width:991px){
+	.prod_details_pg .prod_sidebar{margin-top:30px;}
+	.prod_details_pg .prod_sidebar .prod_title{margin: 0px 0px 15px;}
+	.prod_single_details .prod_sidebar_sec .prod_title{margin: 0px 0px 8px;}
+	.prod_details_pg .prod_sidebar .prod_title h4{font-size: 16px;line-height: 21px;}
+	.prod_details_pg .prod_sidebar .prod_price span{font-size: 24px;line-height: 30px;}
+	.prod_details_pg .prod_sidebar .prod_available{margin: 10px 0px;}
+	.prod_details_pg .prod_sidebar .prod_available span{font-size: 14px;line-height: 18px;}
+	.prod_details_pg .prod_sidebar .prod_cus_select select.custom_select_opt, .prod_details_pg .prod_sidebar .cus_prod_btn a, .prod_details_pg .prod_sidebar .cus_prod_btn button, .prod_single_details .prod_sidebar_sec .cus_prod_btn button{font-size: 14px;line-height: 18px;padding: 10px 15px;} 
+	.prod_description_tabs{margin:45px 0px 0px;}
+	.product_list .inner_product_items .product_item .product_content .product_price span{font-size:12px;line-height:21px;} 
+	.prod_single_details .prod_sidebar_sec{margin:30px 0px 0px;} 
+}
+@media(min-width:768px){
+	.top_strip p{font-size:14px;line-height:18px;}
+	header.header .header_right .shop_icon{margin: 30px 0px 0px;}
+	.main_wrapper header.header{top: 0px;}
+	.main_wrapper.strip_show header.header{top: 30px;} 
+	header.header .header_nav .cus_navbar{border-top: 2px solid #514f52;}
+	header.header .header_nav .cus_navbar ul li:last-child{margin-right:0px;}
+	.our_serv_section .serv_img img.hgt100{height:100%;}
+	.our_serv_section .serv_img img.wd100{width:100%;} 
+	.our_serv_section .serv_img img.wdauto{width:auto;}
+	.our_serv_section .serv_img{width:90px;height: 65px;}
+	.our_serv_section .serv_txt{width:calc(100% - 130px);margin-left: 30px;}
+	.chat_msg_icon a img{width:180px;}
+	.room_tabs_section .inner_room_tabs ul li{margin-right:50px;}
+	.room_tabs_section .inner_room_tabs ul li a{font-size:21px;line-height:26px;padding:10px 20px;border-bottom: 4px solid transparent;}
+	.room_tabs_section .inner_room_tabs ul li.active a, .room_tabs_section .inner_room_tabs ul li a:hover, .room_tabs_section .inner_room_tabs ul li a:focus{border-bottom: 4px solid #172930;}
+	.room_tabs_section .room_list .room_content .hover_content h4{font-size:28px;line-height:32px;margin: 0px 0px 16px;}
+	.room_tabs_section .room_list .room_content .hover_content a{font-size:28px;line-height:32px;padding:15px 40px;border-radius:15px;}
+	.room_tabs_section, .popu_collect_section{margin:40px 0px;}
+	.custom_title h3{font-size: 28px;line-height: 32px;margin:30px 0px;}
+	.pop_collect_list .inner_collect{padding:30px;border-radius:20px;}
+	.feat_produt_review{padding:0px 20px;}
+	.search_list ul li{margin-right:20px;margin-bottom:20px;}
+	.search_list ul li a{font-size:18px;line-height:21px;padding:10px 20px;border-radius:30px;}
+	.customer_review_sec a.viewall{font-size: 21px;line-height: 24px;margin:10px 0px 0px;}
+	.overall_rating span.rating_value{font-size:21px;line-height:24px;}
+	.client_review .review_cont p{font-size:20px;line-height:24px;}
+	.client_review .review_cont span{font-size:20px;line-height:24px;}
+	.customer_review_sec{padding:30px;border-radius:20px;}
+	.client_review{margin:40px 0px;}
+	.google_map_sec iframe{height:450px;}
+	.google_map_sec .visit_showroom a{padding: 15px 50px;font-size: 28px;line-height: 32px;} 
+	footer.footer{margin: 50px 0px 0px;}
+	.newsletter_sec .newsletter_form form .form_field{float:left;width: calc(23% - 20px);margin-right: 20px;}
+	.newsletter_sec .newsletter_form form .form_field.email_field{width: calc(30% - 20px);}
+	.newsletter_sec .newsletter_form form .form_btn{float: left;width: 24%;}
+	.newsletter_sec .newsletter_form form .form_field input.form-control{font-size: 21px;line-height: 24px;padding: 16px 15px;}
+	.newsletter_sec .newsletter_form form .form_btn input{padding: 16px 20px;font-size:21px;line-height: 24px;}
+	.mob_other_menu{display:none;}
+	.custom_readymade .inner_cus_made_sec .custom_title h4{font-size: 26px;line-height: 32px;margin:30px 0px 15px;}
+	.custom_readymade .inner_cus_made_sec .custom_title span{font-size: 25px;line-height: 32px;}
+	.custom_readymade .readymade_list ul li img{width:50px;height: 40px;}
+	.custom_readymade .readymade_list ul li a span{width:calc(100% - 65px);margin-left:10px;font-size:14px;line-height:18px;}
+	.custommade_product{margin:50px 0px 0px;}
+	.our_serv_section{margin: 30px 0px 0px;}
+	.cus_made_product .inner_readymade h4{font-size: 18px;line-height: 21px;}
+	.cus_made_product .inner_readymade h4 a{padding: 15px 0px;}
+	.inner_custommade_sec{padding:0px 20px 30px;}
+	.inner_custommade_sec p{padding: 0px 10% 0px;}
+	.custom_prod_collection .prod_collection_list .prod_collect_img{float:left;width:60%;}
+	.custom_prod_collection .prod_collection_list .prod_collect_info{width:39%;margin-left:1%;float:left;padding:0px 30px;}
+	.custom_prod_collection .prod_collection_list{padding:20px 30px;}
+	.prod_details_pg{margin:50px 0px 0px;}
+	.prod_description_tabs ul.nav-tabs{display: flex;align-items: center;}
+	.prod_description_tabs ul.nav-tabs li{display: flex;flex-direction: column;width: 20%;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu{position: absolute;min-width: 260px;max-height: 0;z-index: 9;padding: 20px 15px;opacity: 0;margin: 0;left:-99999px;-webkit-transition: opacity .25s;-o-transition: opacity .25s;transition: opacity .25s;color: #777;background-color: #fff;text-align: left;display: table;}
+	header.header .header_nav .cus_navbar ul li.dropdown:hover ul.dropdown-menu{max-height: inherit;opacity:1;}
+	header.header .header_nav .cus_navbar ul li.dropdown:first-child:hover ul.dropdown-menu{left:-15px;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col{text-align: left;display: table-cell;white-space: nowrap;vertical-align: top;}
+	.sofabed_option .field_choice:nth-child(3n), .size_option .field_choice:nth-child(4n), .fabric_option .field_choice:nth-child(8n){margin-right:0px;}
+	.sofabed_option .field_choice:nth-child(3n+1), .size_option .field_choice:nth-child(4n+1), .fabric_option .field_choice:nth-child(8n+1){clear:both;} 
+	.prod_description_tabs .tab-content{padding:20px;}
+	.more_option_content{margin:30px 0px;}
+	.more_option_content .more_option_item{padding: 30px 0 15px;}
+	.more_option_content .more_option_item .option_content{width:calc(35% - 20px);margin-right:15px;}
+	.more_option_content .more_option_item .option_image{width:65%;} 
+}
+@media(max-width:767px){
+	.top_strip p{font-size:10px;line-height:14px;}
+	header.header .header_right .shop_icon{margin: 20px 0px 0px;}
+	.main_wrapper header.header{top: 0px;padding: 8px 0px;}
+	.main_wrapper.strip_show header.header{top: 26px;} 
+	header.header .header_right{position: absolute;top: 4px;right: 60px;}
+	header.header .navbar-toggle{background: #303e44;margin-right: 0px;}
+	header.header .navbar-toggle span{background: #fff;} 
+	header.header .navbar-brand{padding:0px;}
+	header.header .header_nav .cus_navbar .navbar-collapse{background: #fff;border-radius: 10px;position: relative;z-index: 99;box-shadow: 0px 0px 10px rgb(197 197 197 / 92%);}
+	header.header .header_nav .cus_navbar ul.nav.navbar-nav{margin:0px;}
+	.mob_other_menu{border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;padding:10px 0px;margin: 10px 0px;}
+	.mob_other_menu ul li a{padding:10px 0px;display:block;}
+	.our_serv_section .serv_img{width:60px;} 
+	.our_serv_section .serv_img img{width:100%;} 
+	.our_serv_section .serv_txt{width:calc(100% - 80px);margin-left: 15px;}
+	.serv_col:nth-child(3){clear:both;}
+	.chat_msg_icon a img{width:120px;}
+	.room_tabs_section .inner_room_tabs ul li{margin-right:15px;margin-bottom: 10px;}
+	.room_tabs_section .inner_room_tabs ul li a{font-size:13px;line-height:16px;padding:6px 10px;border-bottom: 2px solid transparent;}
+	.room_tabs_section .inner_room_tabs ul li.active a, .room_tabs_section .inner_room_tabs ul li a:hover, .room_tabs_section .inner_room_tabs ul li a:focus{border-bottom: 2px solid #172930;} 
+	.room_col_4{margin-bottom:20px;}
+	.room_tabs_section .room_list .room_content .hover_content h4{font-size:18px;line-height:24px;margin: 0px 0px 12px;}
+	.room_tabs_section .room_list .room_content .hover_content a{font-size:18px;line-height:24px;padding:12px 25px;border-radius:10px;}
+	.room_tabs_section, .popu_collect_section{margin:20px 0px;} 
+	.custom_title h3{font-size: 21px;line-height: 26px;margin:15px 0px;}
+	.pop_collect_list .inner_collect{padding:20px;border-radius:15px;}
+	.pop_collect_list .pop_col4{margin-bottom:20px;}
+	.room_popu_collect{background: #ede9e7;padding:10px 0px;}
+	.room_popu_collect:before, .feat_produt_review:before{display:none;}
+	.feat_produt_review{background: #f7f7f9;padding:0px 15px 30px;}
+	.feat_produt_review .feature_product_sec{margin-top:0px;}
+	.search_list ul li{margin-right:10px;margin-bottom:15px;}
+	.search_list ul li a{font-size:13px;line-height:16px;padding:6px 14px;border-radius:20px;}
+	.customer_review_sec a.viewall{font-size: 18px;line-height: 21px;margin:6px 0px 0px;}
+	.overall_rating span.rating_value{font-size:18px;line-height:21px;}
+	.client_review .review_cont p{font-size:14px;line-height:21px;}
+	.client_review .review_cont span{font-size:15px;line-height:21px;}
+	.client_review .review_col{margin-bottom: 30px;}
+	.customer_review_sec{padding:15px;border-radius:15px;margin-bottom: 0px;}
+	.client_review{margin:30px 0px 0px;}  
+	.google_map_sec iframe{height:350px;}
+	.google_map_sec .visit_showroom{width: 250px;text-align: center;}
+	.google_map_sec .visit_showroom a{padding: 12px 20px;font-size: 21px;line-height: 26px;}
+	footer.footer{margin: 20px 0px 0px;}
+	footer.footer .inner_footer{padding: 40px 0px 20px;}
+	footer.footer .inner_footer .footer_col{margin-bottom: 20px;}
+	.follow_instagram .insta_col{margin-bottom:20px;width:50%;float:left;}
+	.follow_instagram .insta_col:nth-child(2n+1){clear:both;}
+	.popu_search_sec{margin-bottom:0px;}
+	.newsletter_sec .newsletter_form form .form_field{margin-bottom:15px;}
+	.newsletter_sec .newsletter_form form .form_field, .newsletter_sec .newsletter_form form .form_btn{width:100%;} 
+	.newsletter_sec .newsletter_form form .form_field input.form-control{font-size: 15px;line-height: 21px;padding: 12px 15px;}
+	.newsletter_sec .newsletter_form form .form_btn input{padding: 12px 15px;font-size:15px;line-height: 21px;}
+	header.header .header_left .room_menu li a, header.header .header_nav .cus_navbar ul li a{font-size: 13px;line-height: 18px;}	
+	.custom_readymade .inner_cus_made_sec .custom_title h4{font-size: 21px;line-height: 26px;margin:20px 0px 10px;}
+	.custom_readymade .inner_cus_made_sec .custom_title span{font-size: 18px;line-height: 24px;}
+	.custom_readymade .readymade_list ul li{width:calc(50% - 6px);margin-right:10px;padding:15px 8px;}
+	.custom_readymade .readymade_list ul li:nth-child(2n){margin-right:0px;}
+	.custom_readymade .readymade_list ul li:nth-child(2n+1){clear:both;}
+	.custom_readymade .readymade_list ul li img{width:40px;height: 30px;}
+	.custom_readymade .readymade_list ul li a span{width:calc(100% - 55px);margin-left:8px;font-size:12px;line-height:16px;}
+	.custommade_product{margin:35px 0px 0px;}
+	.our_serv_section{margin: 20px 0px 15px;}
+	.cus_made_product .inner_readymade h4{font-size: 16px;line-height: 21px;}
+	.cus_made_product .inner_readymade h4 a{padding: 12px 0px;}
+	.inner_custommade_sec{padding:0px 10px 20px;}
+	.custom_prod_collection .prod_collection_list .prod_collect_img{width:100%;margin-bottom:20px;}
+	.custom_prod_collection .prod_collection_list .prod_collect_info{width:100%;padding:0px 15px;}
+	.custom_prod_collection .prod_collection_list{padding:15px 20px;}
+	.prod_details_pg{margin:35px 0px 0px;}
+	.prod_description_tabs ul.nav-tabs li{display:inline-block;}
+	.product_sidebar{margin:20px 0px;} 
+	header.header .header_nav .cus_navbar ul li.dropdown a span.fa{font-size: 24px;line-height: 16px;float:right;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu li.dropdown_col:last-child a img{display:none;}
+	header.header .header_nav .cus_navbar ul li.dropdown ul.dropdown-menu{padding:15px;}
+	.sofabed_option .field_choice, .size_option .field_choice{width:calc(50% - 14px);margin:0px 10px 20px 0px;float:left;}
+	.sofabed_option .field_choice:nth-child(2n), .size_option .field_choice:nth-child(2n){margin-right:0px;}
+	.sofabed_option .field_choice:nth-child(2n+1), .size_option .field_choice:nth-child(2n+1){clear:both;} 
+	.prod_description_tabs .tab-content{padding:15px 12px;}
+	.more_option_content{margin:20px 0px;}
+	.more_option_content .more_option_item{padding: 20px 0 10px;margin-bottom:10px;}
+	.more_option_content .more_option_item .option_content, .more_option_content .more_option_item .option_image{width:100%;} 
+	.more_option_content .more_option_item .option_image{margin-top:20px;}
+}  
+@media(min-width:481px) and (max-width:991px){
+	.cus_choose_option .field_choice label.choice_label span.span_title{font-size: 13px;line-height: 16px;}	
+	.cus_choose_option .field_choice label.choice_label span.span_price{font-size: 18px;line-height: 21px;}
+}
+@media(min-width:481px) and (max-width:767px){
+	.serv_col:nth-child(1), .serv_col:nth-child(2){margin-bottom:20px;}
+	.feature_product_sec .feture_prod_list ul li{width:calc(33% - 18px);margin:0px 15px 40px 0px;}
+	.inner_banner_section .banner_content select.selection_type{font-size: 16px;line-height: 21px;}
+	.inner_banner_section .banner_content h2 i{font-size: 30px;line-height: 24px;margin-left: 6px;}
+	.inner_banner_section .banner_content{padding: 16px 30px;max-width: 292px;margin: 0px auto;text-align:center;}
+	.inner_custommade_sec .custom_made_btn a{font-size: 13px;line-height: 16px;padding:8px 15px;margin-right:10px;margin-bottom:10px;}	
+	.prod_description_tabs ul.nav-tabs li a{font-size:13px;line-height: 16px;padding:12px 10px;}
+	.product_list .inner_product_items .product_item{width:calc(50% - 10px);margin-right:15px;}
+	.product_list .inner_product_items .product_item:nth-child(2n){margin-right:0px;}
+	.product_list .inner_product_items .product_item:nth-child(2n+1){clear:both;}
+	.fabric_option .field_choice{width:calc(25.8% - 12px);margin:0px 10px 20px 0px;float:left;}
+	.fabric_option .field_choice:nth-child(4n){margin-right:0px;}
+	.fabric_option .field_choice:nth-child(4n+1){clear:both;}
+}
+@media(min-width:481px){
+	.product_list .inner_product_items .product_item{float:left;margin-bottom:30px;}
+	.product_list .inner_product_items .product_item .product_img .free_shopping_tag span{font-size: 12px;line-height: 16px;padding: 22px 10px;}
+}
+@media(max-width:480px){
+	.serv_col{width: 230px;margin: 0px auto 20px;display: block;float: none;}
+	.wd100_xs{width:100%;}
+	.feature_product_sec .feture_prod_list ul li{width:calc(50% - 15px);margin:0px 10px 30px 0px;}
+	.inner_banner_section .banner_content{padding: 12px 25px;max-width: 255px;margin: 0px auto;text-align:center;} 
+	.inner_banner_section .banner_content select.selection_type{font-size: 14px;line-height: 18px;}
+	.inner_banner_section .banner_content h2 i{font-size: 24px;line-height: 20px;margin-left: 6px;}
+	.inner_custommade_sec .custom_made_btn a{font-size: 12px;line-height: 16px;padding:6px 12px;margin-right:8px;margin-bottom:10px;}
+	.prod_description_tabs ul.nav-tabs li a{font-size:10px;line-height: 14px;padding:10px 6px;}
+	.product_list .inner_product_items .product_item{width:100%;margin-bottom:20px;}
+	.product_list .inner_product_items .product_item .product_img .free_shopping_tag span{font-size: 11px;line-height: 15px;padding: 16px 6px;}
+	.sofabed_option .field_choice{width:calc(50% - 14px);margin:0px 10px 20px 0px;float:left;}
+	.sofabed_option .field_choice:nth-child(2n), .size_option .field_choice:nth-child(4n), .fabric_option .field_choice:nth-child(8n){margin-right:0px;}
+	.sofabed_option .field_choice:nth-child(2n+1), .size_option .field_choice:nth-child(4n+1), .fabric_option .field_choice:nth-child(8n+1){clear:both;} 
+	.cus_choose_option .field_choice label.choice_label span.span_title{font-size: 12px;line-height: 16px;}	
+	.cus_choose_option .field_choice label.choice_label span.span_price{font-size: 16px;line-height: 21px;}
+	.fabric_option .field_choice{width:calc(34.3% - 8px);margin:0px 6px 20px 0px;float:left;}
+	.fabric_option .field_choice:nth-child(3n){margin-right:0px;}
+	.fabric_option .field_choice:nth-child(3n+1){clear:both;}
+}
+@media(max-width:420px){
+	.main_wrapper header.header{top: 0px;padding: 5px 0px 4px;}
+	.main_wrapper.strip_show header.header{top: 41px;padding: 5px 0px 4px;}
+}

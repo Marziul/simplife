@@ -1,0 +1,148 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-header .navbar-toggle {
+        border: 1px solid #ddd;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect {
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #000;
+        width: 30px;        
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 4px;
+        height: 4px;
+    }
+    
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #000;
+        height: 4px;
+        position: relative;
+        top: -4px;        
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }
+    
+    
+    .navbar-collapse {
+        background-color: rgba(0,0,0, .95);
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;    
+        border-bottom: 3px solid #222624;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    ul.navbar-nav li a{
+        padding:6px 15px;
+    }  
+    ul.navbar-nav > li > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 20px;
+    }
+    
+    ul.navbar-nav li:last-child,
+    ul.navbar-nav li, .nav-menu ul li ul.sub-menu li:last-child,
+    ul.navbar-nav li ul.sub-menu li{
+        border: 0px none;
+    }    
+    ul.navbar-nav li{
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav li ul.sub-menu li:hover{
+        background: transparent;
+    }
+    ul.navbar-nav li ul.sub-menu li a{
+        padding:3px 0px 3px 15px;
+    } 
+    ul.navbar-nav li a:hover,
+    ul.navbar-nav li.current_page_item a{
+        background: transparent;
+    }
+    
+    ul.navbar-nav > li > ul.sub-menu li.menu-item-has-children:before{
+        display: none;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu{
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding-left: 20px;
+    }    
+    
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu{
+        left: auto;
+    }
+    
+    
+    
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+}
